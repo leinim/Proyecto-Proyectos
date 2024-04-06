@@ -1,0 +1,37 @@
+* {
+    box-sizing: content-box;
+}
+
+.divisor {
+    border: 1px solid black;
+}
+
+
+.nav {
+    background-color: darkseagreen;
+    padding: 30px;
+    margin: 0;
+    box-shadow: 0 0 5px 5px grey;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    font-size: larger;
+    font-family: fantasy;
+    font-weight: 500;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    list-style: none;
+    font-size: larger;
+}
+
+.listItem a {
+    text-decoration: none;
+    color: rgb(41, 112, 204);
+}
