@@ -33,21 +33,22 @@ header {
     margin-bottom: 150px;
 }
 
-.nav {
+.navegacion {
     position: fixed;
-    width: 100%;
+    width: 94%;
     background-color: #6BAA75;
     padding: 30px;
     box-shadow: 0 0 5px 5px grey;
 }
 
-.nav ul {
+.navegacion ul {
     display: flex;
     justify-content: space-around;
     list-style: none;
     font-size: larger;
     font-family: fantasy;
     font-weight: 500;
+    margin-right: 40px;
 }
 
 footer ul {
@@ -56,7 +57,7 @@ footer ul {
     justify-content: space-around;
     list-style: none;
     font-size: larger;
-    background-color: #6BAA75
+    background-color: #6BAA75;
 }
 
 .listItem a {
@@ -77,4 +78,28 @@ footer ul {
 .imagenesIA img {
     width: 200px;
     height: auto;
+}
+
+div#accordionExample.accordion {
+    --bs-accordion-active-bg: rgba(255, 0, 0, 0.185);
+}
+
+.accordion-button {
+    position: static;
+}
+
+.accordion-button:focus{
+    box-shadow: none;
+}
+
+#collapseThree div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#collapseThree img {
+    width: 20%;
+    height: 20%;
+    padding: 10px;      
 }
